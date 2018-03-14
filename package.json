@@ -1,0 +1,45 @@
+{
+  "name": "grunt-clientlab-filter",
+  "description": "执行查找替换指定占位符的GRUNT任务。",
+  "version": "0.2.2",
+  "homepage": "https://github.com/peigong/grunt-clientlab-filter",
+  "author": {
+    "name": "clientlab",
+    "email": "peigong@foxmail.com",
+    "url": "https://github.com/peigong"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peigong/grunt-clientlab-filter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/peigong/grunt-clientlab-filter/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/peigong/grunt-clientlab-filter/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "repleace",
+    "filter"
+  ]
+}
